@@ -35,12 +35,25 @@
   display: inline;
   text-align: center;
   padding: 15px;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  transition: all 1s ease-out;
   
   
 }
 .main-nav ul li:hover{
   background-color: #ffa34d;
-  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 .main-photo{
   width: 100%;
