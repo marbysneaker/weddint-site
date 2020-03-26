@@ -1,12 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Wedding from './wedding.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className='main'>
+        <div id='sticky' className='main'>
           <div className='main-nav'>
             <ul>
               <li>Welcome</li>
@@ -17,7 +18,7 @@ function App() {
           
           </div>
           <div className="main-photo">
-          
+            
           </div>
         
         </div>
