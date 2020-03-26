@@ -44,7 +44,8 @@
   
 }
 .main-nav ul li:hover{
-  background-color: #ffa34d;
+  background-color: #d4f8e8;
+  color: #f67575;
   cursor: pointer;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -72,7 +73,7 @@
   top: 0;
 }
 .main-example{
-  background-color: #1eb2a6;
+  background-color: #d4f8e8;
   grid-row: 3;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -95,12 +96,11 @@
   font-family: 'Parisienne', cursive;
   font-weight: 900;
 }
-.main-title span{
-  
-}
+
 .main-title span svg {
   font-size: 40px;
   padding: 20px;
+  color: black;
 }
 
 .main-des{

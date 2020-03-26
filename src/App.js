@@ -30,7 +30,8 @@ function App() {
           <div className='main-title'>
           Wedding Florist  
           <br/>
-          <span><a href="https://www.facebook.com/" ><FacebookIcon /></a><TwitterIcon/><InstagramIcon/></span>
+          <span><a href="https://www.facebook.com/" ><FacebookIcon /></a>
+          <a href="https://www.twitter.com"><TwitterIcon/></a><a href="https://www.instagram"><InstagramIcon/></a></span>
           </div>       
           <div className='main-des'>
           Richard Clemente <br/>
