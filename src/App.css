@@ -94,11 +94,19 @@
 }
 .main-title{
   grid-row: 1;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 0px;
   font-size: 40px;
-  
   font-family: 'Parisienne', cursive;
   font-weight: 900;
+  margin: 0;
+}
+.main-title span{
+  margin-bottom: 20px;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 .main-title span svg {
@@ -114,4 +122,20 @@
   grid-row-start: 3;
   grid-row-end: 5;
   font-size: 20px;
+}
+.main-des button{
+  background-color: #f67575;
+  width: 100px;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+  border-color: black;
+  border-style: solid;
+}
+.main-des button:hover{
+  cursor: pointer;
+
 }
