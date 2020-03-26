@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Wedding from './wedding.png'
+import FacebookIcon from '@material-ui/icons/Facebook'
 
 function App() {
   return (
@@ -19,6 +20,20 @@ function App() {
           </div>
           <div className="main-photo">
             
+          </div>
+          <div className="main-example">
+          
+          </div>
+          <div className='main-content'>
+          <div className='main-title'>
+          Wedding Florist         
+          </div>
+          <div className='main-icons'>
+          <FacebookIcon/></div>
+          <div className='main-des'>
+          Richard Clemente <br/>
+          gay courier from falck
+          </div>
           </div>
         
         </div>
