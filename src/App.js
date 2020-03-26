@@ -28,15 +28,17 @@ function App() {
           </div>
           <div className='main-content'>
           <div className='main-title'>
-          Wedding Florist         
-          </div>
-          <div className='main-icons'>
-          <FacebookIcon/><TwitterIcon/><InstagramIcon/></div>
+          Wedding Florist  
+          <br/>
+          <span><a href="https://www.facebook.com/" ><FacebookIcon /></a><TwitterIcon/><InstagramIcon/></span>
+          </div>       
           <div className='main-des'>
           Richard Clemente <br/>
           gay courier from falck
           </div>
           </div>
+        
+
         
         </div>
       </header>

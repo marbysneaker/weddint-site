@@ -51,7 +51,7 @@
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease;
-  border-radius: 15px;
+  border-radius: 20px;
   padding-top: 15px;
   padding-bottom: 10px;
 }
@@ -95,6 +95,14 @@
   font-family: 'Parisienne', cursive;
   font-weight: 900;
 }
+.main-title span{
+  
+}
+.main-title span svg {
+  font-size: 40px;
+  padding: 20px;
+}
+
 .main-des{
   grid-row-start: 3;
   grid-row-end: 5;
