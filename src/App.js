@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Wedding from './wedding.png'
 import Wedding2 from './wedding2.jpg'
+import Wedding3 from './wedding3.jpg'
+import Wedding5 from './wedding5.jpg'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import TwitterIcon from '@material-ui/icons/Twitter'
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -58,6 +60,8 @@ function App() {
             There are 707 confirmed cases of the coronavirus in the Philippines, and 45 deaths, according to Johns Hopkins.
             </div>
             <div className='example-2'>
+            <img src={Wedding3}/><br/>
+            <img src={Wedding5}/>
             </div>
             <div className='example-2-des'>
             There are now 25 sailors who have tested positive for the coronavirus aboard the aircraft carrier USS Theodore Roosevelt, just two days after the Pentagon announced that three sailors aboard the ship had tested positive for the virus, a Navy official has confirmed to CNN.
