@@ -11,13 +11,13 @@ import Menu from './Components/Menu/Menu.js'
   return (
     <div className='App'>
       <nav className='main-nav'>   
-        <NavLink exact id='nav' activeClassName='active-link' to='/'>
+        <NavLink exact className='nav' activeClassName='active-link' to='/'>
           Welcome
         </NavLink>
-        <NavLink exact id='nav' activeClassName='active-link' to='/contact'>
+        <NavLink exact className='nav' activeClassName='active-link' to='/contact'>
           Contact
         </NavLink>
-        <NavLink exact id='nav' activeClassName='active-link' to='/menu'>
+        <NavLink exact className='nav' activeClassName='active-link' to='/menu'>
           Menu
         </NavLink>    
       </nav>
