@@ -20,7 +20,11 @@ function App() {
           Menu
         </NavLink>    
       </nav>
-      <Route exact path='/' component={Welcome}/>
+      <Switch>
+        <Route exact path='/' component={Welcome}/>
+        <Route exact path='/contact' component={Contact}/>
+        <Route exact path='/menu' component={Menu}/>   
+      </Switch>
      
 
       
