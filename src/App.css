@@ -16,9 +16,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  left: 0;
-
-  
+  left: 0; 
 }
 #nav {
   padding-left: 0;
@@ -56,4 +54,10 @@
   border-radius: 20px;
   padding-top: 15px;
   padding-bottom: 10px;
+}
+
+.active-link {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 5px;
 }

@@ -1,12 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-import { Switch, NavLink, Route} from 'react-router-dom';
+import { Switch, NavLink, Route } from 'react-router-dom';
 import Welcome from './Components/Welcome/Welcome.js'
 import Contact from './Components/Contact/Contact.js'
 import Menu from './Components/Menu/Menu.js'
 
 
-function App() {
+ class App extends Component{
+   render(){
   return (
     <div className='App'>
       <nav className='main-nav'>   
@@ -21,15 +22,13 @@ function App() {
         </NavLink>    
       </nav>
       <Switch>
-        <Route exact path='/' component={Welcome}/>
-        <Route exact path='/contact' component={Contact}/>
-        <Route exact path='/menu' component={Menu}/>   
+        <Route exact path='/' render={()=> <Welcome/>}/>
+        <Route exact path='/contact' render={()=> <Contact/>}/>
+        <Route exact path='/menu' render={()=> <Menu/>}/>   
       </Switch>
-     
-
-      
     </div>
   );
+ }
 }
 
 export default App;
