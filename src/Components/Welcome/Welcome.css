@@ -135,9 +135,8 @@
   cursor: pointer;
 
 }
-.main-des button:c
 
-.main-example{
+.main-example {
   background-color: #d4f8e8;
   grid-row: 3;
   grid-column-start: 1;

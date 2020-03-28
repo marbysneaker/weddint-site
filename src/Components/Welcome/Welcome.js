@@ -13,9 +13,9 @@ class Welcome extends Component {
     render(){
         return(
 
-    <div className="App">
+            <div className="App">
       <header className="App-header">
-        <div className='main'>
+        <div id='sticky' className='main'>
           <div className="main-photo">
             
           </div>
@@ -72,6 +72,17 @@ class Welcome extends Component {
 
 
         )
-    }
+        }
 }
 export default Welcome
+
+
+// <div className='main-nav'>
+//         //     <ul>
+//         //       <li>Welcome</li>
+//         //       <li>Contact</li>
+//         //       <li>Menu</li>
+//         //     </ul>
+          
+          
+//         //   </div>
