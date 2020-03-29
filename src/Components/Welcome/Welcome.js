@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Wedding from '../../wedding.png'
 import Wedding2 from '../../wedding2.jpg'
 import Wedding3 from '../../wedding3.jpg'
+import Wedding4 from '../../wedding4.jpg'
 import Wedding5 from '../../wedding5.jpg'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import TwitterIcon from '@material-ui/icons/Twitter'
@@ -42,7 +43,7 @@ class Welcome extends Component {
             <div className='example-title'>
             " We are located in the Bay Area "</div>
             <div className='example-1'>
-            <img src={Wedding2}/>
+            <img className='img1' src={Wedding2}/> <img className='img2' src={Wedding4}/>
             </div>
             <div className='example-1-des'>
             Philippines Armed Forces Chief Felimon Santos Jr. has tested positive for the coronavirus, according to CNN Philippines.

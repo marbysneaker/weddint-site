@@ -34,3 +34,25 @@
     width: 33.3%;
     height: 100%;
 }
+.contact-number{
+    grid-row: 2;
+    grid-column: 1;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:  center;
+    padding-top: 100px;
+}
+.contact-email{
+    grid-row: 2;
+    grid-column: 2;
+    text-align:  center;
+    padding-top: 100px;
+    line-height: 2;
+}
+.contact-address{
+    grid-row: 2;
+    grid-column: 3;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 2;
+}
