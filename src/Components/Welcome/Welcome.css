@@ -197,6 +197,9 @@
   grid-column: 1;
   font-size: 20px;
   line-height: 2;
+  border-bottom-style: groove;
+  border-color: dimgrey;
+  margin-bottom: 30px;
 }
 
 .example-2 {
