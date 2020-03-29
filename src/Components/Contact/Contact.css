@@ -37,10 +37,13 @@
 .contact-number{
     grid-row: 2;
     grid-column: 1;
-    font-size: 30px;
-    font-weight: bold;
+    line-height: 2;
     text-align:  center;
     padding-top: 100px;
+}
+.contact-number span{
+    font-size: 30px;
+    font-weight: bold;
 }
 .contact-email{
     grid-row: 2;

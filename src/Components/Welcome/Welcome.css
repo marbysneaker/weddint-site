@@ -191,7 +191,7 @@
 }
 .example-1-des {
   padding-top: 300px;
-  padding-left: 100px;
+  padding-left: 50px;
   padding-right: 50px;
   grid-row: 2;
   grid-column: 1;
@@ -200,6 +200,7 @@
   border-bottom-style: groove;
   border-color: dimgrey;
   margin-bottom: 30px;
+  margin-left: 50px;
 }
 
 .example-2 {

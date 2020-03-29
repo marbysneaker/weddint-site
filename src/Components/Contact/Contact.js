@@ -18,7 +18,7 @@ class Contact extends Component {
                     <img src={Wedding9} />
                 </div>
                 <div className='contact-number'>
-                510-999-8888</div>
+                <span>510-999-8888</span><br/>Office hours<br/>Monday - Friday<br/>0700 am - 0100 pm </div>
                 <div className='contact-email'>
                 Richard Clemente<br/>gay courier<br/><a href="www.marbysneaker@gmail.com">Marbysneaker@gamil.com</a></div>
                 <div className='contact-address'>
