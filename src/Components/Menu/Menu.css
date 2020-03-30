@@ -7,7 +7,7 @@
 .menu{
    margin-top: 100px;
    display: grid;
-   grid-template-columns: 100px 1fr 1fr 1fr;
+   grid-template-columns: 200px 1fr 1fr 1fr;
    grid-template-rows: 100px 1fr 1fr 1fr 1fr 1fr;
    width: 100%;
    height: 1000px;
@@ -28,33 +28,46 @@
 .menu-list ul{
     list-style: none;
 }
+.menu-list ul li{
+    padding-bottom: 25px;
+}
+.menu-images{
+    grid-row: 2 / 7;
+    grid-column: 2 / 5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr;
+
+}
 .menu-images div img:hover {
     width: 300px;
 }
-.img1 img{
-    grid-row: 2;
+.menu-img1 img{
+    grid-row: 1;
+    grid-column: 1;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    padding: 25px;
+}
+.menu-img2 img{
+    grid-row: 1;
     grid-column: 2;
     width: 250px;
     height: 250px;
     position: relative;
     left: 0;
-    padding: 10px
+    padding: 25px;
 }
-.img2 img{
-    grid-row: 2;
+ 
+
+.menu-img3 img{
+    grid-row: 1;
     grid-column: 3;
-    width: 250px;
+    width: 250;
     height: 250px;
     position: relative;
     left: 0;
-    padding: 10px
-}
-.img3 img{
-    grid-row: 2;
-    grid-column: 4;
-    width: 250px;
-    height: 250px;
-    /* position: relative; */
-    /* left: 0;
-    padding: 10px */
+    padding: 25px;
 }

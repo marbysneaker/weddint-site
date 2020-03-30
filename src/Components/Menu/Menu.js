@@ -5,6 +5,7 @@ import Wedding2 from '../../wedding2.jpg'
 import Wedding3 from '../../wedding3.jpg'
 import Wedding4 from '../../wedding4.jpg'
 import Wedding5 from '../../wedding5.jpg'
+import Wedding6 from '../../wedding6.jpg'
 
 class Menu extends Component {
     render(){
@@ -33,13 +34,13 @@ class Menu extends Component {
                     <br/>
                 </ul></div>
                 <div className='menu-images'>
-                    <div className='img1'>
+                    <div className='menu-img1'>
                         <img src={Wedding3}/>
                     </div>
-                    <div className='img2'>
+                    <div className='menu-img2'>
                         <img src={Wedding4}/>
                     </div>
-                    <div className='img3'>
+                    <div className='menu-img3'>
                         <img src={Wedding5}/>
                     </div>
                 </div>
