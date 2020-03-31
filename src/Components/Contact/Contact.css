@@ -62,3 +62,10 @@
     padding-top: 100px;
     line-height: 2;
 }
+.contact-bg {
+    grid-row: 2;
+    grid-column: 1/4;
+    background-image: url(geometric-leaves.png);
+    z-index: -1;
+    height: 500px;
+}

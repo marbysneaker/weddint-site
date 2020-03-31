@@ -24,6 +24,7 @@ class Contact extends Component {
                 <div className='contact-address'>
                 
                 23133 Kidder St <br/>Hayward, Ca. 94545<br/>United States</div>
+                <div className='contact-bg'></div>
             </div>
 
 
