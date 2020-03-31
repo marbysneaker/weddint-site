@@ -37,7 +37,9 @@ class Welcome extends Component {
           A 34-year-old Italian nurse treating COVID-19 patients in the hard-struck European country has taken her own life for fear of having spread the illness, according to a nursing organization there.
           Daniela Trezzi worked in the intensive care unit of San Gerardo of Monza Hospital, according to a translated statement from the National Federation of Nurses of Italy, in a region described as “one of the major Italian fronts of the pandemic.”
 
-          <br/>
+          <br/><NavLink exact  to='/contact'>
+          <button>Contact</button>
+        </NavLink>
           </div>
           </div>
           <div className="main-example">
