@@ -11,7 +11,7 @@ class Contact extends Component {
         return(
             <div className='contact'>
                 <div className='contact-title'>
-                Contact Us.</div>
+                <span>Co</span>ntact <span>Us</span>.</div>
                 <div className='contact-image'>
                     <img src={Wedding7} />
                     <img src={Wedding8} />

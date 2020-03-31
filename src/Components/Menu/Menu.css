@@ -39,14 +39,18 @@
     grid-row: 1fr 1fr 1fr 1fr 1fr;
 
 }
+.menu-images div img{
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+}
 .menu-images div img:hover {
     width: 300px;
+    height: 300px;
 }
 .menu-img1 img{
     grid-row: 1;
     grid-column: 1;
-    width: 250px;
-    height: 250px;
     position: relative;
     left: 0;
     padding: 25px;
@@ -65,9 +69,52 @@
 .menu-img3 img{
     grid-row: 1;
     grid-column: 3;
-    width: 250;
-    height: 250px;
     position: relative;
     left: 0;
     padding: 25px;
 }
+.menu-img4 img{
+    grid-row: 2;
+    grid-column: 1;
+    position: relative;
+    left: 0;
+    padding: 25px;
+}
+.menu-img5 img{
+    grid-row: 2;
+    grid-column: 2;
+    position: relative;
+    left: 0;
+    padding: 25px;
+}
+.menu-img6 img{
+    grid-row: 2;
+    grid-column: 3;
+    position: relative;
+    left: 0;
+    padding: 25px;
+}
+img{
+    box-shadow: 0px 0px 5px darkgray;
+}
+
+.menu-list li{
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -ms-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    text-align: center;
+    padding-top: 25px;
+}
+  .menu-list li:hover{
+    background-color: darksalmon;
+    color: #1eb2a6;
+    cursor: pointer;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    border-radius: 15px;
+  }

@@ -6,6 +6,9 @@ import Wedding3 from '../../wedding3.jpg'
 import Wedding4 from '../../wedding4.jpg'
 import Wedding5 from '../../wedding5.jpg'
 import Wedding6 from '../../wedding6.jpg'
+import Wedding7 from '../Contact/wedding7.jpg'
+import Wedding8 from '../Contact/wedding8.jpg'
+import Wedding9 from '../Contact/wedding9.jpg'
 
 class Menu extends Component {
     render(){
@@ -42,6 +45,15 @@ class Menu extends Component {
                     </div>
                     <div className='menu-img3'>
                         <img src={Wedding5}/>
+                    </div>
+                    <div className='menu-img4'>
+                        <img src={Wedding7}/>
+                    </div>
+                    <div className='menu-img5'>
+                        <img src={Wedding8}/>
+                    </div>
+                    <div className='menu-img6'>
+                        <img src={Wedding9}/>
                     </div>
                 </div>
             </div>
