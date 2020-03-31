@@ -96,6 +96,17 @@
   font-weight: 900;
   margin: 0;
 }
+.main-title {
+    animation-name: example;
+    animation-duration: 5s;
+  }
+  
+@keyframes example {
+    0% {font-size: 100px; color: #be8abf; z-index: 2;}
+    25% {font-size: 50px;color: #655c56;}
+    50% {font-size: 75px;color: #f8c3af;}
+    100%{font-size: 40px; color: black; z-index: 0;}
+  }
 .main-title span{
   margin-bottom: 20px;
   color: black;
@@ -159,6 +170,7 @@
   font-family: 'Pacifico', cursive;
 
 }
+
 .example-1 {
   grid-row: 2;
   grid-column: 2;
@@ -225,5 +237,5 @@
 
 img
 {
-    box-shadow: 0px 0px 5px #fff;
+    box-shadow: 5px 5px 5px grey;
 }
