@@ -139,6 +139,8 @@
   }
   .modal button{
       position: relative;
+      top: -500px;
+      right: -450px;
       
       z-index: 2;
       background-color: blue;
