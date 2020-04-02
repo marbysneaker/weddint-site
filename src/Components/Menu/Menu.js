@@ -52,7 +52,7 @@ onClicked = (picture) => {
                 </ul></div>
                 <div className='menu-images'>
                     <div className='menu-img1' onClick={()=>this.onClicked('Wedding3')} >
-                        <img  src={Wedding3} onClick={()=>this.onClicked('Wedding3')}/>
+                        <img  src={Wedding3} onClick={()=>this.onClicked(Wedding3)}/>
                         Flower2
                     </div>
                     <div className='menu-img2'>
