@@ -25,6 +25,9 @@ onClicked = (picture) => {
     console.log('click')
 
 }
+onClosed = () => {
+    this.setState({isopen:false})
+}
     render(){
         return(
 
@@ -73,7 +76,7 @@ onClicked = (picture) => {
                 </div>
                 {(this.state.isopen === true)?(
                     <div className='modal'>
-                        <img src={this.state.modal}/><br/><button>X</button>
+                        <img src={Wedding3}/><br/><button onClick={()=>this.onClosed()}>X</button>
                     </div>):(<div></div>)
                 }
             </div>
