@@ -11,6 +11,20 @@ import Wedding8 from '../Contact/wedding8.jpg'
 import Wedding9 from '../Contact/wedding9.jpg'
 
 class Menu extends Component {
+    state={
+        isopen:false,
+        modal:null
+
+    }
+
+
+onClicked = (picture) => {
+    this.setState({modal:picture})
+    this.setState({isopen:true})
+    console.log(picture)
+    console.log('click')
+
+}
     render(){
         return(
 
@@ -37,8 +51,9 @@ class Menu extends Component {
                     <br/>
                 </ul></div>
                 <div className='menu-images'>
-                    <div className='menu-img1'>
-                        <img src={Wedding3}/>
+                    <div className='menu-img1' onClick={()=>this.onClicked('Wedding3')} >
+                        <img  src={Wedding3} onClick={()=>this.onClicked('Wedding3')}/>
+                        Flower2
                     </div>
                     <div className='menu-img2'>
                         <img src={Wedding4}/>
@@ -56,6 +71,11 @@ class Menu extends Component {
                         <img src={Wedding9}/>
                     </div>
                 </div>
+                {(this.state.isopen === true)?(
+                    <div className='modal'>
+                        <img src={this.state.modal}/>I'm open
+                    </div>):(<div></div>)
+                }
             </div>
         )
 
