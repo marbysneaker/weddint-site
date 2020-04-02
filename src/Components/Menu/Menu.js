@@ -52,7 +52,7 @@ onClicked = (picture) => {
                 </ul></div>
                 <div className='menu-images'>
                     <div className='menu-img1' onClick={()=>this.onClicked('Wedding3')} >
-                        <img  src={Wedding3} onClick={()=>this.onClicked(bind, Wedding3)}/>
+                        <img  src={Wedding3} onClick={()=>this.onClicked(Wedding3)}/>
                         Flower2
                     </div>
                     <div className='menu-img2'>
@@ -73,7 +73,7 @@ onClicked = (picture) => {
                 </div>
                 {(this.state.isopen === true)?(
                     <div className='modal'>
-                        <img src={this.state.modal}/>I'm open
+                        <img src={this.state.modal}/><br/><button>X</button>
                     </div>):(<div></div>)
                 }
             </div>
