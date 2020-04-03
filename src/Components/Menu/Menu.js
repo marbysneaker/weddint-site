@@ -13,7 +13,8 @@ import Wedding9 from '../Contact/wedding9.jpg'
 class Menu extends Component {
     state={
         isopen:false,
-        modal:null
+        modal:null,
+        image1:Wedding3
 
     }
 
@@ -76,7 +77,7 @@ onClosed = () => {
                 </div>
                 {(this.state.isopen === true)?(
                     <div className='modal'>
-                        <img src={Wedding3}/><br/><button onClick={()=>this.onClosed()}>X</button>
+                        <img src={this.image1}/><br/><button onClick={()=>this.onClosed()}>X</button>
                     </div>):(<div></div>)
                 }
             </div>
