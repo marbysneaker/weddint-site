@@ -132,6 +132,8 @@
       width: 500px;
       height: 500px;
       background-color: blueviolet;
+      font-size: 30px;
+      color: white;
   }
   .modal img{
       width: 100%;
