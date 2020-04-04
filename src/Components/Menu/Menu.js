@@ -14,8 +14,15 @@ class Menu extends Component {
     state={
         isopen:false,
         modal:null,
-        image1:'../../wedding3.jpg',
-        image2:Wedding3
+        images:[{
+                'menu-img1':Wedding3},
+                {'menu-img2':Wedding4},
+                {'menu-img3':Wedding5},
+                {'menu-img4':Wedding6},
+                {'menu-img5':Wedding7},
+                {'menu-img6':Wedding8},
+                 {'menu-img7':Wedding9}]
+
 
     }
 
@@ -31,6 +38,13 @@ onClosed = () => {
     this.setState({isopen:false})
 }
     render(){
+
+
+        this.state.images.map((images, index)=>(
+          
+            console.log(Object.keys(images))
+            
+          ))
         return(
 
             <div className='menu'>
@@ -54,31 +68,18 @@ onClosed = () => {
                     <br/>
                     <li>Flower9</li>
                     <br/>
-                </ul></div>
+                </ul>
+                </div>
                 <div className='menu-images'>
-                    <div className='menu-img1' onClick={()=>this.onClicked('Wedding3')} >
-                        <img  src={Wedding3} onClick={()=>this.onClicked(Wedding3)}/>
-                        Flower2
+                {this.state.images.map((images,index)=>(
+                    <div className={Object.keys(images)}>
+                        <img src={Object.values(images)} onClick={()=> this.onClicked(Object.values(images))} />
                     </div>
-                    <div className='menu-img2'>
-                        <img src={Wedding4}/>
-                    </div>
-                    <div className='menu-img3'>
-                        <img src={Wedding5}/>
-                    </div>
-                    <div className='menu-img4'>
-                        <img src={Wedding7}/>
-                    </div>
-                    <div className='menu-img5'>
-                        <img src={Wedding8}/>
-                    </div>
-                    <div className='menu-img6'>
-                        <img src={Wedding9}/>
-                    </div>
+                ))}
                 </div>
                 {(this.state.isopen === true)?(
                     <div className='modal'>
-                        <img src={(this.state.image2)} alt='modal-image'/><br/><button onClick={()=>this.onClosed()}>X</button>
+                        <img src={(this.state.modal)} alt='modal-image'/><br/><button onClick={()=>this.onClosed()}>X</button>
                     </div>):(<div></div>)
                 }
             </div>
@@ -87,3 +88,21 @@ onClosed = () => {
     }
 }
 export default Menu
+
+
+
+// <div className='menu-img2'>
+// <img src={Wedding4}/>
+// </div>
+// <div className='menu-img3'>
+// <img src={Wedding5}/>
+// </div>
+// <div className='menu-img4'>
+// <img src={Wedding7}/>
+// </div>
+// <div className='menu-img5'>
+// <img src={Wedding8}/>
+// </div>
+// <div className='menu-img6'>
+// <img src={Wedding9}/>
+// </div>
