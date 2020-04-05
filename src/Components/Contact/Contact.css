@@ -44,6 +44,8 @@
     line-height: 2;
     text-align:  center;
     padding-top: 100px;
+    font-weight: 700;
+    font-size: 20px;
 }
 .contact-number span{
     font-size: 30px;
@@ -55,6 +57,8 @@
     text-align:  center;
     padding-top: 100px;
     line-height: 2;
+    font-weight: 700;
+    font-size: 20px;
 }
 .contact-address{
     grid-row: 2;
@@ -62,6 +66,8 @@
     text-align: center;
     padding-top: 100px;
     line-height: 2;
+    font-weight: 700;
+    font-size: 20px;
 }
 .contact-bg {
     grid-row: 2;
