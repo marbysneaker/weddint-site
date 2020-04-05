@@ -15,13 +15,13 @@ class Menu extends Component {
         isopen:false,
         modal:null,
         images:[{
-                'menu-img1':Wedding3},
-                {'menu-img2':Wedding4},
-                {'menu-img3':Wedding5},
-                {'menu-img4':Wedding6},
-                {'menu-img5':Wedding7},
-                {'menu-img6':Wedding8},
-                 {'menu-img7':Wedding9}]
+                'menu-img1':Wedding3,list:"Flower1"},
+                {'menu-img2':Wedding4,list:"Flower2"},
+                {'menu-img3':Wedding5,list:"Flower3"},
+                {'menu-img4':Wedding6,list:"Flower4"},
+                {'menu-img5':Wedding7,list:"Flower5"},
+                {'menu-img6':Wedding8,list:"Flower6"},
+                 {'menu-img7':Wedding9,list:"Flower7"}]
 
 
     }
@@ -52,28 +52,19 @@ onClosed = () => {
                 " Menu "</div>
                 <div className ='menu-list'>
                 <ul>
-                    <li>Flower2</li>
-                    <br/>
-                    <li>Flower3</li>
-                    <br/>
-                    <li>Flower4</li>
-                    <br/>
-                    <li>Flower5</li>
-                    <br/>
-                    <li>Flower6</li>
-                    <br/>
-                    <li>Flower7</li>
-                    <br/>
-                    <li>Flower8</li>
-                    <br/>
-                    <li>Flower9</li>
-                    <br/>
+                {this.state.images.map((images, index) =>(
+
+                    <li onClick={()=> this.onClicked(Object.values(images)[0])}>{images.list}</li>
+                    
+
+                ))}
+                 
                 </ul>
                 </div>
                 <div className='menu-images'>
                 {this.state.images.map((images,index)=>(
                     <div className={Object.keys(images)}>
-                        <img src={Object.values(images)} onClick={()=> this.onClicked(Object.values(images))} />
+                        <img src={Object.values(images)[0]} onClick={()=> this.onClicked(Object.values(images)[0])} />
                     </div>
                 ))}
                 </div>
