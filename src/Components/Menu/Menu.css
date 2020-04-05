@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Erica+One|Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 
 
 .menu{
@@ -33,6 +34,7 @@
 }
 .menu-list ul li{
     padding-bottom: 25px;
+    font-family: 'Libre Baskerville', serif;
 }
 .menu-images{
     padding: 25px;
